@@ -1,0 +1,27 @@
+$def with(datos)
+<a href="/"><h1>Update</h1></a>
+
+<form method="POST">
+    <label for="nombre_libro">Nombre Libro</label>
+    <input type="text" id="nombre_libro"  value ="$datos.nombre_libro" name="nombre_libro" placeholder="Nombre libro">
+    <br>
+    <label for="autor">Autor</label>
+    <input type="text" id="autor" value ="$datos.autor" name="autor" placeholder="Autor">
+    <br>
+    <label for="genero">Genero</label>
+    <input type="text" id="genero" value ="$datos.genero" name="genero" placeholder="genero">
+    <br>
+    <label for="numero_paginas">Numero Paginas</label>
+    <input type="text" id="numero_paginas" value ="$datos.numero_paginas" name="numero_paginas" placeholder="Numero Paginas">
+    <br>
+    <label for="numero_volumenes">Numero Volumenes</label>
+    <input type="text" id="numero_volumenes" value ="$datos.numero_volumenes" name="numero_volumenes" placeholder="Numero Volumenes">
+    <br>
+    <label for="editorial">Editorial</label>
+    <input type="text" id="editorial" value ="$datos.editorial" name="editorial" placeholder="Editorial">
+    <br>
+    <label for="anio_publicacion">Anio Publicacion</label>
+    <input type="text" id="anio_publicacion" value ="$datos.anio_publicacion" name="anio_publicacion" placeholder="anio">
+    <br>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
